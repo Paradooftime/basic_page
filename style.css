@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:poppins;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+#navbar{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+#let{
+    height:100px;
+    width: 85%;
+    display: flex;
+}
+#EduLerns{
+    width: 250px;
+    display: flex;
+    padding: 30px 45px; 
+}
+#EduLerns>i{
+    padding: 8px 2px;
+    font-size: 40px;
+    color: rgb(193, 28, 211),
+    rgb(210, 198, 198),
+    rgb(69, 5, 180);
+}
+#EduLerns>h2{
+    padding: 10px 0px;
+}
+#bl{
+    color: black;
+}
+#cy{
+    color: aquamarine;
+}
+#elements{
+    height:80px ;
+    width: 65%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+#elements>h4{
+    font-weight: 600;
+}
+#let2{
+    height: 100px;
+    width: 25%;
+    padding: 30px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#tff{
+    height: 40px;
+    width: 60%;
+    border-color: black;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+#tff>p{
+    padding: 10px 20px;
+}
+#let2>i{
+    font-size: 20px;
+}
+#pht1{
+    height: 85%;
+    width: 100%;
+    background-color: gainsboro;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#pht1-img{
+    height: 500px;
+    width: 50%;
+    border-radius:  15px;
+    background:url(https://c0.wallpaperflare.com/preview/1007/135/690/beautiful-beautiful-girl-book-bright.jpg);
+}
+#pht1-text{
+    width: 50%;
+    height: 80%;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+#pht1-text>h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: black;
+}
+#pht1-text>h5{
+    padding: 10px 10px;
+    font-weight: 400;
+    color: rgb(15, 15, 60);
+    font-size: 12px;
+}
+#bo{
+    width: 100%;
+    height:80px;
+    display: flex;
+    gap: 9px;
+    font-size: 35px;
+}
+#B>h1{
+    width: auto;
+    font-weight: 400;
+    color: black;
+}
+
+#o>h1{
+    height: auto;
+    width: auto;
+    font-family: "Finger Paint";
+    color: rgb(238, 177, 22);
+}
+#fc{
+    height: 10%;
+    width: 130px;
+    border-color: black;
+    background-color: black;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+#fc>h4{
+    padding: 10px 15px;
+}
+#pht2{
+    height: 85%;
+    width: 100%;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+#pht2-text{
+    height: 80%;
+    width:35%;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: black;
+}
+#pht2-text>h4{
+    font-weight: 500;
+    color: rgb(7, 244, 165);
+    letter-spacing: 1.5;
+    font-size: 12px;
+    word-spacing: 3;
+}
+#pht2-text>h1{
+    font-weight: 500;
+    padding: 10px 0px;
+    line-height: 1.2;
+}
+#pht2-text>h5{
+    padding: 10px 0px;
+    font-weight: 400;
+}
+#check-box{
+    height: 30%;
+    width: 100%;
+    padding: 10px 0px;
+    gap: 10px;
+}
+#check1{
+    height: 50%;
+    display: flex;
+    gap: 50px;
+}
+#check2{
+    height: 50%;
+    display: flex;
+    gap: 50px;
+}
+.ri-checkbox-circle-fill{
+    font-size: 40px;
+}
+.ri1{
+    gap:20px;
+    display: flex;
+}
+#i1>i{
+    color: rgb(220, 9, 83);
+}
+#i2>i{
+    color: rgb(126, 6, 177);
+}
+#i3>i{
+    color: rgb(220, 195, 6);
+}
+#i4>i{
+    color: rgb(45, 171, 156); 
+}
+.ri2>h4{
+    margin-top: 10px;
+}
+#pht2-img{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://assets-global.website-files.com/615d67c97853134828739d2b/6242fb641eb0f5d02f756ff9_Group%201914.svg);
+}
+#pht2-img1{
+height: 30%;
+width: 10%;
+border-radius: 9px;
+position: absolute;
+left: 21%;
+top: 113%;
+z-index: 2;
+}
+#pht2-img1{
+    background-image: url(https://media.www.kent.ac.uk/se/16709/studyingwell_inline.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pht2-img2{
+height: 40%;
+width: 12%;
+border-radius: 9px;
+position: absolute;
+left: 10%;
+top: 118%;
+transform:  rotate(-25deg);
+z-index: 1;
+}
+#pht2-img2{
+    background-image: url(https://as1.ftcdn.net/v2/jpg/01/71/56/70/1000_F_171567028_0jiuUYUPDnGaChZAOu0fhpRLQWZVz3bp.jpg);
+    background-size: cover;
+}
+
+#pht3{
+    height: 100%;
+    width: 100%;
+    padding: 30px 60px;
+    color: black;
+}
+#pht3>h5{
+    font-weight: 500;
+    color: rgb(0, 241, 241);
+}
+#pht3-pic{
+ height: 20%;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+#pic2{
+    display: flex;
+    height: 50%;
+    width: 25%;
+    padding: 0px 10px;
+    gap: 1px;
+}
+#pic21{
+    height: 100%;
+    width: 20%;
+    font-size: 30px;
+    border-radius: 50%;
+    border:1px solid;
+    padding: 10px 5px;
+}
+#pic22{
+    height: 100%;
+    width: 20%;
+    font-size: 30px;
+    border-radius: 50%;
+    border:1px solid;
+    padding: 10px 30px;
+}
+#c4{
+    margin-top: 30px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.co{
+    height: 90%;
+
+    width: 20%;
+    box-shadow: 1px 1px  8px rgb(130, 129, 129),
+    2px 2px  10px rgb(130, 129, 129),
+    3px 3px  12px rgb(130, 129, 129),
+    4px 4px  14px rgb(130, 129, 129) ;
+    border-radius: 5px;
+    
+}
+.c4-img{
+    height: 55%;
+    border-radius: 5px;   
+}
+.advanced-logo{
+    height: 30px;
+    width: 100px;
+    background-color:blueviolet;
+    position: absolute;
+    padding: 4px 9px;
+    border-radius: 25px;
+    margin-left: 30px;
+    bottom: -1050px;
+    text-transform:uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+#c4-text{
+    height: 45%;
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    padding: 10%;
+    border-radius: 5px;
+}
+.leson{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.le>i{
+    color: aqua;
+}
+.leson-txt{
+    height: auto;
+    width: auto;
+    padding: 10px 0px;
+}
+.rating{
+    height: auto;
+    width: auto;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+.rating>h5{
+    font-weight: 400;
+}
+.co-line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(22, 22, 22);
+    margin-left: 0px;
+
+}
+.star{
+    height: 20px;
+    width: 100%;
+    color:rgb(255, 189, 22);
+    margin-top: 0px;
+}
+#c41-img{
+    background-image: url(https://www.theasianschool.net/blog/wp-content/uploads/2023/01/Here-Know-Why-Books-Are-Important-in-Students-Life-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#c42-img{
+    background-image: url(https://waylandlibrary.org/wp-content/uploads/2015/02/photodune-8354538-cute-student-reading-a-book-m.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#c43-img{
+    background-image: url(https://images.pexels.com/photos/16504587/pexels-photo-16504587/free-photo-of-college-student-reading-a-book-in-library.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+}
+#c44-img{
+    background-image: url(https://media.istockphoto.com/id/1410572798/photo/smiling-girl-holding-a-book-in-library-while-standing-at-bookshelf.webp?b=1&s=170667a&w=0&k=20&c=6kPcvj662xvgITgYwSxBq7dysR418ESScdMk_ULQ8ZQ=);
+    background-position: center;
+    background-size: cover;
+}
+#round-bar{
+    height: 50px;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 20%;
+    display: flex;
+    color: black;
+}
+#round-bar-main{
+    height: 100%;
+    width: 100%;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 27px;
+}
+#rba-main1{
+    display: flex ;
+    margin-left: 100px;
+}
+#rba-num{
+    color:crimson;
+}
+#round-bar-sub{
+    height: 80%;
+    width: 20%;
+    align-items: center;
+    background-color: black;
+    margin-left: 100px;
+    border-radius: 50px;
+    margin-right: 3px;
+    color: aliceblue;
+}
+#round-bar-sub>h4{
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+#otue{
+    height: 30%;
+    width: 100%;
+    background-color: blueviolet;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(https://images.pexels.com/photos/573130/pexels-photo-573130.jpeg?cs=srgb&dl=pexels-zulian-yuliansyah-573130.jpg&fm=jpg);
+}
+.otue0{
+    display: flex;
+    gap: 25px;
+}
+.e1{
+    font-size: 70px;
+}
+.e2{
+    margin-top: 30px;
+}
+.e10{
+    height: 90px;
+    width: 1px;
+    background-color: black;
+}
