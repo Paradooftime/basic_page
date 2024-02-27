@@ -426,7 +426,7 @@ z-index: 1;
     background-color: black;
     margin-left: 100px;
     border-radius: 50px;
-    margin-right: 3px;
+    margin-right: 5px;
     color: aliceblue;
 }
 #round-bar-sub>h4{
@@ -460,3 +460,26 @@ z-index: 1;
     width: 1px;
     background-color: black;
 }
+#tcf{
+    height: 30%;
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+
+}
+#tcf>h5{
+    color: rgb(13, 199, 199);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    word-spacing: 5px;
+    padding: 10px;
+}
+#tcf>h2{
+    color: black;
+    font-size: 50px;
+    word-spacing: 2px;
+}
+
+
+
