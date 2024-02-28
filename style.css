@@ -555,6 +555,67 @@ color:cornflowerblue ;
     font-weight: 600;
     line-height: 20px;
 }
-
-
+#logpg{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-fairytale-enchanted-rainforest-with-sunbeams-digital-painting-background-illustration_285885-334.jpg?w=1380);
+}
+#logpgo{
+    height: 90%;
+    width: 80%;
+    background-color:rgba(24, 149, 24, 0.622);
+    backdrop-filter:blur(10px);
+    display: flex;
+    gap: 2px;
+    border-radius: 25px;
+}
+#logpgo1{
+    height: 100%;
+    width: 50%;
+    font-weight: 500;
+    padding: 17% 60px;
+}
+#logpgo1>h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+}
+#logpgo1>h6{
+    margin-top: 8%;
+    font-size: 10px;
+    font-weight: 600;
+}
+#logpgo2{
+    height: 100%;
+    width: 50%;
+    padding: 15% 0px;
+    gap: 30px;
+}
+.logpgo20{
+    width: 100%;
+    height: 10%;
+    padding: 30px;
+}
+.logpgo20>input{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+#lg0>button{
+    margin-top: 7%;
+    margin-left: 35px;
+    height: 40px;
+    width: 30%;
+    border-radius: 25px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+}
 
